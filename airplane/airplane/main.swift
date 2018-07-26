@@ -48,3 +48,17 @@ for (key, value) in Student {
 }
 
 print(poor)
+
+
+
+
+// 1부터 50까지 더하는 코드를 작성하세요
+
+var result: Int = 0
+
+func SumUp (arg: Int) -> Int {
+    for i in 1...arg {
+        result += i
+    }
+    return result
+}
